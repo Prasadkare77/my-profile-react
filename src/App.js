@@ -18,6 +18,7 @@ import LifeCycle from './Components/14.LifeCycle';
 import PureComp from './Components/14.PureComp';
 import Ref from './Components/14.Ref';
 import PropDrilling from './Components/15.PropDrilling';
+import ContextInClass from './Components/15.ContextInClass';
 
 function App() {
   const data = 'Welcome to codmind'
@@ -42,7 +43,8 @@ function App() {
       {/* <14.LifeCycle msg={"Welcome to React LifeCycle"}/> */}
       {/* <PureComp/> */}
       {/* <Ref/> */}
-      <PropDrilling/>
+      {/* <PropDrilling/> */}
+      <ContextInClass/>
     </div>
   );
 }

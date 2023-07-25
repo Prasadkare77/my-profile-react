@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import ChildComp2 from "./15.ChildComp2"
+
 class ChildComp1 extends Component {
     render() {
         return (

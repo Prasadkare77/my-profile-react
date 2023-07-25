@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ChildComp1 from './15.ChildComp1'
-export class PropDrilling extends Component {
+
+class PropDrilling extends Component {
   constructor(props) {
     super(props)
 
@@ -15,6 +16,7 @@ export class PropDrilling extends Component {
         <h2>Prop Drilling</h2>
         <h4>Parent Data Is: {this.state.message}</h4>
         <ChildComp1 msg={this.state.message}/>
+        <ChildComp1/>
         
       </div>
     )
