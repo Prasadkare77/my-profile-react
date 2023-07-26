@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 import HeaderComp from './Components/HeaderWithClassComp.js'
 import FunctionalComp from './Components/FunctionalComp';
 import ReactStateComp from './Components/5.ReactStateClass';
@@ -18,14 +20,17 @@ import LifeCycle from './Components/14.LifeCycle';
 import PureComp from './Components/14.PureComp';
 import Ref from './Components/14.Ref';
 import PropDrilling from './Components/15.PropDrilling';
-import ContextInClass from './Components/15.ContextInClass';
+import ContextInClass from './Components/16.ContextInClass';
+import NavbarMenu from './Components/17.Roting In React - Profile/Index';
+import Index from './Components/17.Roting In React - Profile/Index';
 
 function App() {
   const data = 'Welcome to codmind'
   return (
     <div className="App">
-        <h2 className="heading">Welcome to React</h2>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+      {/* <h2 className="heading">Welcome to React</h2> */}
+      {/* <img src={logo} className="App-logo" alt="logo" /> */}
+      
       {/* <HeaderComp/> */}
       {/* <FunctionalComp/> */}
       {/* <ReactStateComp/>
@@ -44,7 +49,8 @@ function App() {
       {/* <PureComp/> */}
       {/* <Ref/> */}
       {/* <PropDrilling/> */}
-      <ContextInClass/>
+      {/* <ContextInClass/> */}
+      <Index />
     </div>
   );
 }
