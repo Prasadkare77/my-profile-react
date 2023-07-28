@@ -23,6 +23,7 @@ import PropDrilling from './Components/15.PropDrilling';
 import ContextInClass from './Components/16.ContextInClass';
 import NavbarMenu from './Components/17.Roting In React - Profile/Index';
 import Index from './Components/17.Roting In React - Profile/Index';
+import APIIntegration from './Components/18.APIIntegration';
 
 function App() {
   const data = 'Welcome to codmind'
@@ -50,7 +51,8 @@ function App() {
       {/* <Ref/> */}
       {/* <PropDrilling/> */}
       {/* <ContextInClass/> */}
-      <Index />
+      {/* <Index /> */}
+      <APIIntegration/>
     </div>
   );
 }
