@@ -22,8 +22,12 @@ import Ref from './Components/14.Ref';
 import PropDrilling from './Components/15.PropDrilling';
 import ContextInClass from './Components/16.ContextInClass';
 import NavbarMenu from './Components/17.Roting In React - Profile/Index';
-import Index from './Components/17.Roting In React - Profile/Index';
+//import Index from './Components/17.Roting In React - Profile/Index';
 import APIIntegration from './Components/18.APIIntegration';
+import Index from './Components/18.CodmindDesign/Index';
+import HooksIntro from './Components/19.HooksIntro';
+import UseStateComp from './Components/19.UseStateComp';
+import UseEffectHook from './Components/19.UseEffectHook';
 
 function App() {
   const data = 'Welcome to codmind'
@@ -52,7 +56,11 @@ function App() {
       {/* <PropDrilling/> */}
       {/* <ContextInClass/> */}
       {/* <Index /> */}
-      <APIIntegration/>
+      {/* <APIIntegration/> */}
+      {/* <Index/> */}
+      {/* <HooksIntro/> */}
+      {/* <UseStateComp/> */}
+      <UseEffectHook/>
     </div>
   );
 }

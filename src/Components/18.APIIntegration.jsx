@@ -84,7 +84,7 @@ export class APIIntegration extends Component {
                 </ul> */}
 
 
-                <Table striped bordered hover>
+                <Table striped bordered hover variant="dark">
                     <thead>
                         <tr>
                             <th>#</th>
@@ -108,7 +108,6 @@ export class APIIntegration extends Component {
                         ))}
                     </tbody>
                 </Table>
-
             </div>
         )
     }
