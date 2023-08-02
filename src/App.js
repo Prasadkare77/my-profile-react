@@ -28,6 +28,10 @@ import Index from './Components/18.CodmindDesign/Index';
 import HooksIntro from './Components/19.HooksIntro';
 import UseStateComp from './Components/19.UseStateComp';
 import UseEffectHook from './Components/19.UseEffectHook';
+import UseRefHooks from './Components/20.UseRefHook';
+import UseContextHook from './Components/20.UseContextHook';
+
+
 
 function App() {
   const data = 'Welcome to codmind'
@@ -60,7 +64,9 @@ function App() {
       {/* <Index/> */}
       {/* <HooksIntro/> */}
       {/* <UseStateComp/> */}
-      <UseEffectHook/>
+      {/* <UseEffectHook/> */}
+      <UseRefHooks/>
+      <UseContextHook/>
     </div>
   );
 }
