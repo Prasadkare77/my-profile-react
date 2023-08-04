@@ -30,6 +30,8 @@ import UseStateComp from './Components/19.UseStateComp';
 import UseEffectHook from './Components/19.UseEffectHook';
 import UseRefHooks from './Components/20.UseRefHook';
 import UseContextHook from './Components/20.UseContextHook';
+import UseMemoHook from './Components/21.UseMemoHook';
+import UseReducerHook from './Components/21.UseReducerHook';
 
 
 
@@ -65,8 +67,10 @@ function App() {
       {/* <HooksIntro/> */}
       {/* <UseStateComp/> */}
       {/* <UseEffectHook/> */}
-      <UseRefHooks/>
-      <UseContextHook/>
+      {/* <UseRefHooks/>
+      <UseContextHook/> */}
+      {/* <UseMemoHook/> */}
+      <UseReducerHook/>
     </div>
   );
 }
